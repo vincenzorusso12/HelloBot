@@ -6,8 +6,8 @@ import time
 # create the objects from the imported modules
 
 # reddit api login
-reddit = praw.Reddit(client_id='8Bm4CREcTjPKUg',
-                     client_secret='nujVhfTAhyP8qd-Y5yXenW3n5t8',
+reddit = praw.Reddit(client_id='add id',
+                     client_secret='add secret',
                      username='user',
                      password='pass',
                      user_agent='HelloBot ti saluta')
