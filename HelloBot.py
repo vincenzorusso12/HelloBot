@@ -8,8 +8,8 @@ import time
 # reddit api login
 reddit = praw.Reddit(client_id='8Bm4CREcTjPKUg',
                      client_secret='nujVhfTAhyP8qd-Y5yXenW3n5t8',
-                     username='momo584',
-                     password='sticazzi',
+                     username='user',
+                     password='pass',
                      user_agent='HelloBot ti saluta')
                     
 
