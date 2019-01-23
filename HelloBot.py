@@ -1,9 +1,7 @@
 # hellobot
 
 import praw
-import time
 
-# create the objects from the imported modules
 
 # reddit api login
 reddit = praw.Reddit(client_id='add id',
