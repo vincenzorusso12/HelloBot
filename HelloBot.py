@@ -1,4 +1,4 @@
-# bigwordbot
+# hellobot
 
 import praw
 import time
@@ -16,10 +16,10 @@ reddit = praw.Reddit(client_id='add id',
 # the subreddits you want your bot to live on
 subreddit = reddit.subreddit('testabot')
 
-# phrase to activate the bot
+# words to activate the bot
 saluti = ["Ciao","ciao","Salve","salve","Buongiorno","buongiorno"]
 
-# look for phrase and reply appropriately
+# look for words in the comment and reply appropriately
 for comment in subreddit.stream.comments():
     if any(word in comment.body for word in saluti):
 
